@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0710"><meta name="robots" content="noindex">
+  <title>Hesap Oluştur — iWsMMO</title><link rel="stylesheet" href="assets/styles.css"><script defer src="assets/site.js"></script>
+</head>
+<body class="account-page">
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-gem"></span>iWsMMO</a><a class="back-link" href="index.html">← Ana sayfaya dön</a></header>
+  <main class="account-main">
+    <section class="account-copy"><p class="eyebrow">MACERAYA KATIL</p><h1>Efsanen<br><span>burada başlıyor.</span></h1><p>Tek hesabınla oyun dünyasına giriş yap. Hesabın e-posta doğrulamasından sonra etkinleşir.</p><ul><li>Human ve Orc karakter seçenekleri</li><li>Beş özgün sınıf</li><li>Güvenli, sunucu otoriteli hesap sistemi</li></ul></section>
+    <section class="account-card" aria-labelledby="register-title">
+      <div class="card-ornament"><span></span></div><p class="eyebrow">iWs GAMES ACCOUNT</p><h2 id="register-title">Hesap Oluştur</h2><p class="card-note">Tüm alanlar zorunludur.</p>
+      <form id="register-form" novalidate>
+        <label>Kullanıcı adı<input name="username" autocomplete="username" minlength="3" maxlength="32" pattern="[A-Za-z0-9_]+" required><small>3–32 karakter; harf, rakam ve alt çizgi.</small></label>
+        <label>E-posta adresi<input name="email" type="email" autocomplete="email" maxlength="254" required></label>
+        <label>Şifre<input name="password" type="password" autocomplete="new-password" minlength="10" maxlength="256" required><span class="password-meter"><i></i></span><small>En az 10 karakter. Kullanıcı adını içermemeli.</small></label>
+        <label>Şifre tekrar<input name="passwordConfirmation" type="password" autocomplete="new-password" minlength="10" maxlength="256" required></label>
+        <label class="honeypot" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <label class="consent"><input name="consent" type="checkbox" required><span><a href="terms.html">Kullanım Koşulları</a> ve <a href="privacy.html">Gizlilik Politikası</a>'nı kabul ediyorum.</span></label>
+        <button class="button button-full" type="submit">HESAP OLUŞTUR</button>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+      <p class="login-note">Zaten hesabın var mı? Oyunu açarak giriş yapabilirsin.</p>
+    </section>
+  </main>
+  <footer class="compact-footer"><p>© <span data-year></span> iWs Games</p><div><a href="privacy.html">Gizlilik</a><a href="terms.html">Koşullar</a></div></footer>
+</body>
+</html>
