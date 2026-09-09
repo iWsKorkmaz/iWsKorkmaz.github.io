@@ -4,4 +4,12 @@ Official static website for `iwsgames.com`. The public registration form sends c
 
 ## Publish
 
-Publish the contents of `dist/` from the `main` branch with GitHub Pages. Keep the `CNAME` file so the site remains bound to `iwsgames.com`.
+GitHub Pages publishes the repository root (`/`) on the `main` branch. Keep the `CNAME` file so the site remains bound to `iwsgames.com`. Cloudflare manages the domain DNS; this frontend does not require a Windows server deployment.
+
+Run `npm run dev` for a local preview on port 8080. Run `npm run build` to validate required files and create a complete distribution in `dist/`; that directory is a build artifact, not the configured Pages source.
+
+## Homepage assets
+
+The original purple/gold palette, `assets/iwsmmo-hero.png`, and `assets/og.png` are preserved. `assets/homepage.css` applies only to the new homepage; registration, verification, shared scripts, and legal pages retain their existing behavior.
+
+`assets/world-concept.png` and `assets/encounter-concept.png` were generated with OpenAI ImageGen on 2026-09-09 for this redesign. They illustrate a fantasy trading city and a party encounter with a giant guardian. Both are labelled as concept art on the page and are not gameplay screenshots. No new social preview image was generated.
