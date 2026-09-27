@@ -1,3 +1,3 @@
 import http from 'node:http';import {readFile,stat} from 'node:fs/promises';import path from 'node:path';
-const root=process.cwd();const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.png':'image/png'};
+const root=process.cwd();const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.ico':'image/x-icon','.xml':'application/xml'};
 http.createServer(async(req,res)=>{try{let p=decodeURIComponent(req.url.split('?')[0]);if(p==='/')p='/index.html';const full=path.resolve(root,'.'+p);if(!full.startsWith(root))throw 0;await stat(full);res.setHeader('Content-Type',types[path.extname(full)]||'application/octet-stream');res.end(await readFile(full))}catch{res.statusCode=404;res.end('Not found')}}).listen(8080,'127.0.0.1',()=>console.log('Local: http://127.0.0.1:8080'));

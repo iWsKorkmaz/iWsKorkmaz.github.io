@@ -19,3 +19,9 @@ The original purple/gold palette, `assets/iwsmmo-hero.png`, and `assets/og.png` 
 All six website pages are available in Turkish at the root, English under `/en/`, and Arabic under `/ar/`. The full feature catalogue is included in each language. The language bar links to the equivalent page, preserves query parameters and section links, and remembers the visitor's explicit choice in browser storage. Static language links also work without JavaScript.
 
 Arabic pages use `lang="ar"` and `dir="rtl"`; shared layout adjustments are in `assets/language.css`. `assets/language-dynamic.js` translates presentation messages and catalogue counters without changing the existing registration API logic. Shared assets remain under `/assets/`. When editing content, update the corresponding pages in all three languages. `npm run build` includes every localized page and language asset.
+
+## Search visibility and image delivery
+
+The homepage and feature catalogue have localized search titles/descriptions, consistent social previews, and Organization/WebSite/WebPage JSON-LD. Language URLs and existing language preferences are preserved. Search engine account verification and sitemap submission still require the owner. No tracking account, advertising campaign, ratings, price, or game source code is added.
+
+WebP images retain the originals’ dimensions. Content pictures keep PNG fallbacks; the hero background uses WebP. Social previews use the smaller JPEG and the purple brand diamond supplies the favicon. Original PNG files remain available. Verification-result pages use noindex. Run `npm run test:seo` to validate metadata, canonical/alternate URLs, structured data and the sitemap; the build runs this validation too.
