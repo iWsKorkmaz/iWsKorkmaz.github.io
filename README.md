@@ -22,6 +22,10 @@ Arabic pages use `lang="ar"` and `dir="rtl"`; shared layout adjustments are in `
 
 ## Search visibility and image delivery
 
-The homepage and feature catalogue have localized search titles/descriptions, consistent social previews, and Organization/WebSite/WebPage JSON-LD. Language URLs and existing language preferences are preserved. Search engine account verification and sitemap submission still require the owner. No tracking account, advertising campaign, ratings, price, or game source code is added.
+The homepage and feature catalogue have localized search titles/descriptions, consistent social previews, and Organization/WebSite/WebPage JSON-LD. Language URLs and existing language preferences are preserved. Search Console ownership was verified and the sitemap was submitted through the owner’s account. No advertising campaign, fabricated ratings, price, or game source code is added.
 
 WebP images retain the originals’ dimensions. Content pictures keep PNG fallbacks; the hero background uses WebP. Social previews use the smaller JPEG and the purple brand diamond supplies the favicon. Original PNG files remain available. Verification-result pages use noindex. Run `npm run test:seo` to validate metadata, canonical/alternate URLs, structured data and the sitemap; the build runs this validation too.
+
+## Visitor measurement
+
+Cloudflare Web Analytics uses a manual public beacon on the homepage, feature catalogue, privacy and terms pages in all three languages. Registration and verification pages intentionally have no analytics beacon. No form values are sent as custom analytics events. The privacy pages disclose measurement and local language preference storage. Cloudflare automatic injection is disabled for this site; do not add a second beacon. The site identifier in the embed is public, not an account management credential.
