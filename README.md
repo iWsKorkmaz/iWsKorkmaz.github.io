@@ -13,3 +13,9 @@ Run `npm run dev` for a local preview on port 8080. Run `npm run build` to valid
 The original purple/gold palette, `assets/iwsmmo-hero.png`, and `assets/og.png` are preserved. `assets/homepage.css` applies only to the new homepage; registration, verification, shared scripts, and legal pages retain their existing behavior.
 
 `assets/world-concept.png` and `assets/encounter-concept.png` were generated with OpenAI ImageGen on 2026-09-09 for this redesign. They illustrate a fantasy trading city and a party encounter with a giant guardian. Both are labelled as concept art on the page and are not gameplay screenshots. No new social preview image was generated.
+
+## Website languages
+
+All six website pages are available in Turkish at the root, English under `/en/`, and Arabic under `/ar/`. The full feature catalogue is included in each language. The language bar links to the equivalent page, preserves query parameters and section links, and remembers the visitor's explicit choice in browser storage. Static language links also work without JavaScript.
+
+Arabic pages use `lang="ar"` and `dir="rtl"`; shared layout adjustments are in `assets/language.css`. `assets/language-dynamic.js` translates presentation messages and catalogue counters without changing the existing registration API logic. Shared assets remain under `/assets/`. When editing content, update the corresponding pages in all three languages. `npm run build` includes every localized page and language asset.

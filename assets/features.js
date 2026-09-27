@@ -9,12 +9,12 @@
   const buttons = [...document.querySelectorAll('[data-filter]')];
   const expand = document.getElementById('expand-all');
   const collapse = document.getElementById('collapse-all');
-  const fold = value => value.toLocaleLowerCase('tr-TR').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/[’'`]/g, ' ').trim();
+  const fold = value => value.toLocaleLowerCase('tr-TR').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/[\u064B-\u065F\u0670\u0640]/g, '').replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/[’'`]/g, ' ').trim();
   const modules = [...results.querySelectorAll('.mmo-module')].map(node => ({node, group:node.dataset.group, text:fold(node.textContent), size:node.querySelectorAll('.mmo-detail-grid > li').length}));
   let active = 'all';
   let hadQuery = false;
   function apply() {
-    const terms = fold(search.value).split(/\s+/).filter(Boolean);
+    const terms = fold(search.value).split(/\s+/).filter(Boolean).map(term => /^[\u0621-\u064A]+$/.test(term) && term.length > 3 ? term.replace(/^ال/, '') : term);
     let visible = 0, details = 0;
     for (const item of modules) {
       const match = (active === 'all' || item.group === active) && terms.every(term => item.text.includes(term));

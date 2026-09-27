@@ -1,2 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://iwsgames.com/</loc></url><url><loc>https://iwsgames.com/register.html</loc></url><url><loc>https://iwsgames.com/privacy.html</loc></url><url><loc>https://iwsgames.com/terms.html</loc></url><url><loc>https://iwsgames.com/mmorpg.html</loc><lastmod>2026-09-27</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://iwsgames.com/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/mmorpg.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/mmorpg.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/en/mmorpg.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/mmorpg.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/ar/mmorpg.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/mmorpg.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/mmorpg.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/ar/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/terms.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/terms.html" />
+  </url>
+  <url>
+    <loc>https://iwsgames.com/ar/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://iwsgames.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iwsgames.com/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://iwsgames.com/ar/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://iwsgames.com/terms.html" />
+  </url>
 </urlset>
